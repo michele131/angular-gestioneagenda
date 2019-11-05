@@ -36,4 +36,8 @@ export class Contatto {
   getNrStelle(): number {
     return this.nrStelle;
   }
+
+  setPreferito() {
+    this.nrStelle = 5;
+  }
 }
