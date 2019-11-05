@@ -10,4 +10,7 @@ import { Contatto } from './contatto.model.ts';
 export class ContattoComponent {
   contatto: Contatto = new Contatto('Michele', 'Corrado', 'michele.corrado@marconirovereto.it', '+393402747394', 5);
   
+  setTextColor() {
+    return this.contatto.isPreferito()? "red" : "black";
+  }
 }
