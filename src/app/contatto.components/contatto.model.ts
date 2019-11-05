@@ -37,6 +37,10 @@ export class Contatto {
     return this.nrStelle;
   }
 
+  isPreferito() {
+    return this.nrStelle == 5;
+  }
+
   setPreferito() {
     this.nrStelle = 5;
   }
